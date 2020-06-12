@@ -90,9 +90,10 @@ body{
 #indexcopyright
 {
 	position: absolute;
-	color:black;
-	top:170%;
-	right: 19%;
+	width: 35%;	
+	height:10%;
+	top: 140%;
+	left:38%;
 }
 
 #aboutusintro
