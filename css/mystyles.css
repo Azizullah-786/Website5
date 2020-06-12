@@ -1,0 +1,660 @@
+/*background color*/
+body{
+	background-color: #FAE5D3;
+}
+
+/*navigation bar*/
+#container{
+	box-sizing: border-box
+	border-style: solid;
+	border-color: #FAE5D3;
+	background: #FAE5D3 ; 	/*The background of the DIV tag is grey*/
+	width: 99%; 			/* How big is the Div seen*/
+	height: 98%; 			/* How big is the Div seen*/
+	position: absolute;
+	overflow:scroll;
+	top:1%; 				/* Tells where to position the tag*/
+	left:1%;				/* Tells where to position the tag*/
+}
+
+#nbar{
+	padding:10;
+	width: 80%;		/* How big is the Div seen*/
+	height: 5%;			/* How big is the Div seen*/
+	position: absolute;
+	top:15%;			/* Tells where to position the tag*/
+	left:6%;			/* Tells where to position the tag*/
+}
+
+#nbar a{
+	font-size:250%;
+	color:black;
+	font-style:blod;
+}
+
+#nbar a:hover {
+	background-color: #e6e6e6;
+	color: #060606;
+}
+
+#bulletpoints p{
+	font-size:20px;/*font size set in px*/
+	color: BLACK;
+}
+#map1 {
+	left:27%;
+	position: absolute;
+	top:30%;
+}
+
+#legal 
+{
+	position: absolute;
+	top:27%;
+	left:2%;
+	font-size: 25px; 
+}
+
+#title {
+	background: ;/*The background of the DIV tag is grey*/
+	width: 90%;	
+	position: absolute;
+	top:22%;
+	left:5%;
+	font-size:125%;
+}
+
+
+#title2
+{
+	background: ;/*The background of the DIV tag is grey*/
+	width: 65%;	
+	position: absolute;
+	top:-2%;
+	left:25%;
+	font-size:140%;
+}
+
+
+
+#indextextineducation
+{
+	position: absolute;
+	top: 85%;
+	right: 8%;
+	width: 22%;	/* the width of the div tag*/
+	height:30%;/* the width of the height*/
+	font-size: 110%;
+}
+
+#indexcopyright
+{
+	position: absolute;
+	color:black;
+	top:170%;
+	right: 19%;
+}
+
+#aboutusintro
+{
+	position: absolute;
+	top: 30%;
+	left: 5%;
+	font-size: 125%;
+}
+
+
+#indexteacher
+{
+	position: absolute;
+	width: 30%;
+	height: 36%;
+	top: 95%;
+	right: 37%;
+}
+
+#indexanimatedteacher
+{
+	position: absolute;
+	width: 25%;	/* the width of the div tag*/
+	height:36%;/* the width of the height*/
+	top:130%;/* Tells where to position the tag starting from the top*/
+	left:5%;/* Tells where to position the tag starting from the left*/
+
+}
+#aboutusRB
+{
+	position: absolute;
+	top: 88%;
+	right: 8%;
+	width: 22%;	/* the width of the div tag*/
+	height:30%;/* the width of the height*/
+}
+
+#AboutusB
+{
+	position: absolute;
+	width: 35%;	
+	height:10%;
+	top: 150%;
+	left:38%;
+}
+
+#aboutusRB p
+{
+	font-size: 20px;
+}
+
+#logo {
+	background: ; /*The background of the DIV tag is blue*/
+	width: 8%; /* How big is the Div seen*/
+	height: 10%; /* How big is the Div seen*/
+	position: absolute;
+	top:1%; /* Tells where to position the tag starting from the top*/
+	left:1%;/* Tells where to position the tag starting from the left*/
+}
+/*about us font size change*/
+
+
+#Contact {
+	background: #DBD9D8;/*The background of the DIV tag is grey*/
+	width: 24%;	
+	height:30%;
+	top:80%; /* Tells where to position the tag*/
+	right:10%;/* Tells where to position the tag*/
+	font-size:20px;	
+	position: absolute;
+}
+
+#image_3
+{
+	width: 22%;	/* the width of the div tag*/
+	height:40%;/* the width of the height*/
+	position: absolute;
+	top:80%;/* Tells where to position the tag starting from the top*/
+	right:15%;/* Tells where to position the tag starting from the left*/
+	font-size:100%;
+}
+
+#coursespic2
+{
+	position: absolute;
+	width: 22%;
+	height: 40%;
+	top: 33%;
+	right: 15%;
+}
+
+#coursespic3
+{
+	position: absolute;
+	width: 30%;
+	height: 36%;
+	top: 42%;
+	left: 28%;
+}
+
+#coursespic4
+{
+	position: absolute;
+	width: 15%;
+	height: 28%;
+	top: 85%;
+	left: 38%;
+}
+
+
+#pashtoimagelanguage
+{
+	position: absolute;
+	width: 20%;
+	height: 30%;
+	top: 88%;
+	left: 7%;
+}
+
+#availablecourses
+{
+	position: absolute;
+	top: 30%;
+	left: 6%;
+	width: 53%;	/* the width of the div tag*/
+	height:30%;/* the width of the height*/
+	font-size: 125%;
+}
+
+
+#coursescopyright
+{
+	background: ;
+	width: 35%;	
+	height:8%;
+	top:127%;
+	left:35%;
+	position: absolute;
+	font-size: 110%;
+}
+
+
+#indexvideo1
+{
+	position: absolute;
+	top: 50%;
+	right:35%;
+}
+
+#smile
+{
+	background: ;/*The background of the DIV tag is grey*/
+	width: 22%;	/* the width of the div tag*/
+	height:40%;/* the width of the height*/
+	position: absolute;
+	top:115%;/* Tells where to position the tag starting from the top*/
+	right:8%;
+}
+
+#indexLB{
+	background: ;/*The background of the DIV tag is grey*/
+	width: 22%;	/* the width of the div tag*/
+	height:30%;/* the width of the height*/
+	position: absolute;
+	top:92%;/* Tells where to position the tag starting from the top*/
+	left:5%;/* Tells where to position the tag starting from the left*/
+	font-size: 100%;
+}
+#indexLB p{
+	font-size:110%;	
+}
+
+
+#indexLM{
+	background: #DBD9D8;/*The background of the DIV tag is grey*/
+	width: 30%;	
+	height:30%;
+	position: absolute;
+	top:100%;/* Tells where to position the tag starting from the top*/
+	left:45%;/* Tells where to position the tag starting from the left*/
+	font-size:20px;
+}
+
+#prices{
+	top:42%;/* Tells where to position the tag starting from the top*/
+	left:8%;/* Tells where to position the tag starting from the left*/
+	font-size:125%;
+	position: absolute;
+
+}
+
+
+#indexMB{
+	background: ;/*The background of the DIV tag is grey*/
+	width:35%;	
+	height:50%;
+	position: absolute;
+	top:98%;/* Tells where to position the tag starting from the top*/
+	left:33%;/* Tells where to position the tag starting from the left*/
+	font-size:100%;
+}
+
+#indexMB{
+	font-size:10px;
+}
+
+#address_1{
+	position:absolute;
+	width:22%;
+	height:30%;
+	z-index:1;
+	left: 10%;
+	top: 35%;
+	font-size:160%;
+}
+
+#name_1{
+	position:absolute;
+	width:25%;
+	height:30%;
+	z-index:1;
+	left: 0%;
+	top: 44%;
+	font-size: 160%;
+}
+
+#video{
+	top:45%; /* Tells where to position the tag */
+	right:33%;	
+	position: absolute;	
+}
+
+#video1{
+	margin:40;
+	padding:0;
+	width:20%;
+	height:30%;
+	top:34%; /* Tells where to position the tag*/
+	right:46%;	
+	position: absolute;
+}
+
+#indexRT{	
+	background: #DBD9D8;
+	width: 24%;	
+	height:35%;
+	top:50%; /* Tells where to position the tag*/
+	right:6%;/* Tells where to position the tag*/
+	position: absolute;
+}
+
+#image_1{	
+	background: #DBD9D8;
+	width: 24%;	
+	height:35%;
+	top:55%; /* Tells where to position the tag*/
+	left:4%;/* Tells where to position the tag*/
+	position: absolute;
+}
+
+#b{	
+	background: #DBD9D8;
+	width: 24%;	
+	height:35%;
+	top:45%; /* Tells where to position the tag*/
+	left:5%;/* Tells where to position the tag*/
+	position: absolute;
+}
+
+#teacher{	
+	background: #DBD9D8;
+	width: 24%;	
+	height:35%;
+	top:45%; /* Tells where to position the tag*/
+	right:6%;/* Tells where to position the tag*/
+	position: absolute;
+}
+
+
+#coursesspecialoffer
+{
+
+	position: absolute;
+	top: 78%;
+	right: 53%;
+	font-size: 180%;
+}
+
+#indexB{	
+	background: ;
+	width: 35%;	
+	height:8%;
+	top:93%;
+	left:38%;
+	position: absolute;
+	font-size: 110%;
+}
+
+#indexB1{	
+	background: #DBD9D8;
+	width: 26%;	
+	height:10%;
+	top:1000px; /* Tells where to position the tag*/
+	left:38%;
+	position: absolute;
+}
+
+
+
+#indexB1 p{	
+	font-size:20px;
+	color:black;
+	position: absolute;
+
+}
+
+/*About us*/
+#AURM{
+	border-width:1%;
+	background: #DBD9D8;
+	width: 25%;
+	height: 30%;
+	position: absolute;
+	top:40%;
+	left:5%;	
+}
+
+#AURM p{
+	font-size:20px;	
+}
+
+#AURB{
+	background: #DBD9D8;
+	width: 25%;
+	height: 25%;
+	position: absolute;
+	top:72%;
+	left:5%;	
+}
+
+#AURB p{
+
+	font-size:20px;
+}
+
+#AUTM{
+	background: #DBD9D8;
+	width: 32%;
+	height: 58%;
+	position: absolute;
+	top:40%;
+	left:33%;	
+}
+
+#AUTM p{
+	font-size:20px;
+}
+
+#AULM{
+	background: #DBD9D8;
+	width: 25%;
+	height: 58%;
+	position: absolute;
+	top:40%;
+	right:5%;	
+}
+
+#AULM p{
+	font-size:20px;
+}
+
+#linktoexternalorganisation{
+	background: #DBD9D8;
+	width: 19%;
+	height: 8%;
+	position: absolute;
+	top:80%;
+	left:3%;
+}
+
+#linktoexternalorganisation1{
+	background: #DBD9D8;
+	width: 5%;
+	height: 10%;
+	position: absolute;
+	top:90%;
+	left:3%;	
+}
+
+#linktoexternalorganisation2{
+	background: #DBD9D8;
+	width: 5%;
+	height: 10%;
+	position: absolute;
+	top:90%;
+	left:15%;	
+}
+
+/*contact us*/
+#Contact{
+	background:#FAE5D3;	
+	position: absolute;
+	top:95%;
+	right:10%;
+	width: 30%;
+}
+
+#callus p{
+	font-size:20px;
+}
+
+#lside1cu{
+	background: #DBD9D8;
+	width: 35%;
+	position: absolute;
+	top:35%;
+	right:4%;
+}
+
+#formcu{
+	background: #DBD9D8; /*The background of the DIV tag is blue*/
+	width: 20%; /* How big is the Div seen*/
+	height: 65%; /* How big is the Div seen*/
+	position: absolute;
+	top:35%; /* Tells where to position the tag*/
+	left:36%;/* Tells where to position the tag*/	
+}
+
+/*Repair Phone Page*/
+
+#SLIDESHOW{
+	border-width:0.5%;
+	background: #DBD9D8;
+	width: 30%;
+	height: 60%;
+	position: absolute;
+	top:35%;
+	left:60%;
+}	
+
+#bulletpoints{
+	background: #DBD9D8;
+	width: 30%;
+	height: 60%;
+	position: absolute;
+	top:35%;
+	left:10%;
+}
+	
+#size{
+	background: #DBD9D8; /*The background of the DIV tag is blue*/
+	position: absolute;
+	top:3%; /* Tells where to position the tag*/
+	right:5%;/* Tells where to position the tag*/
+}
+
+/*PRODUCTS*/
+#LMimg{
+	width: 22%;
+	height: 55%;
+	background: #DBD9D8;
+	position: absolute;
+	top:40%;
+	left:10%;
+}
+
+#BMimg{
+	width: 24%;
+	height: 55%;
+	background: #DBD9D8;
+	position: absolute;
+	top:40%;
+	left:42%;
+}
+
+#BMG{
+	width: 20%;
+	height: 55%;
+	background: #DBD9D8;
+	position: absolute;
+	top:37%;
+	right:10%;
+}
+
+#LB{
+	background: #DBD9D8;
+	position: absolute;
+	top:100%;
+	left:10%;
+}
+
+#MB{
+	background: #DBD9D8;
+	position: absolute;
+	top:98%;
+	left:42%;
+}
+
+#BR{
+	background: #DBD9D8;
+	position: absolute;
+	top:100%;
+	right:5%;
+}
+
+
+
+/*Legal Requirements*/
+#LegalrequirewmentL
+{
+	width: 24%;
+	height: 55%;
+	background: #DBD9D8;
+	position: absolute;
+	top:60%;
+	left:5%;
+	font-size: 120%;	
+}
+
+#LegalrequirementLT{
+	width: 45%;
+	height: 55%;
+	background: #FAE5D3;
+	position: absolute;
+	top:35%;
+	right:50%;	
+	font-size: 120%;
+}
+
+#copyright{
+	background: ;/*The background of the DIV tag is grey*/
+	width: 30%;	/* the width of the div tag*/
+	height:40%;/* the width of the height*/
+	position: absolute;
+	top:35%;/* Tells where to position the tag starting from the top*/
+	right:8%;
+}
+
+#LegalrequirewmentMM{
+	width: 24%;
+	height: 55%;
+	background: #DBD9D8;
+	position: absolute;
+	top:40%;
+	right:39%
+}
+#LegalrequirewmentMM p{
+	font-size:20px;
+}
+
+#legalrequirementcopyright
+{
+	position: absolute;
+	font-size:20px;
+	color:black;
+	top:86%;
+	right:12%;
+}
+
+a
+{
+	width: 30px;
+	height: 150px;
+}

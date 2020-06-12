@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="css/mystyles.css" rel="stylesheet" type="text/css"/>
+		<title>Courses page</title><!--The title of the page-->
+		<script type="text/javascript" src="js/fonts.js"></script>
+		<script type="text/javascript" src="js/_courses.json"></script>
+		<script>
+			alert("Hello to Aziz's website and welcome to 'Courses page'")
+		</script>
+	</head>
+	
+	<!-- the body tag starts here-->	
+	<body>
+		<div id="container">
+			<div id="title">
+			  <H1>Courses available</H1>
+			</div>
+
+			 <div id="title2">
+				<H1>RAS Interpreting & Teaching Center</H1>
+			</div>
+			 
+			<div id="logo"><!--the ID of the logo-->
+				<a href="index.html"><img src="images/newlogo2.png" height="100%" width="100%"></a><!--the code for the logo image-->
+			</div>
+			
+			<!--The navifation bar starts here-->
+			<div id="nbar">
+				<ul>
+				<a href="index.html">Home</a>                          <!-- the index/home page html-->
+				<a href="aboutus.html">About Us</a>                    <!-- about us page html-->
+				<a href="contactus.html">Contact Us</a>                <!-- contact us page html-->
+				<a href="courses.html">Courses</a>                     <!--repair phones html-->
+				<a href="legalrequirement.html">Legal Requirement</a>  <!-- legal requirement page html-->
+				</ul>
+			</div>
+			<!-- navigation bar tag ends here-->
+			
+			<div id="image_3">
+				<img src="images/books2.jpg" height="100%" width="140%">	
+			</div>
+
+			<div id="pashtoimagelanguage">
+				<img src="images/pashtoimage.jpg" height="100%" width="140%">
+
+			</div>
+
+		
+			<div id="availablecourses">
+			<p>Below are all of the available courses that we teach. You can choose any of the following courses, Urdu, 
+			English, Pastho, and Punjabi</p>	
+			</div>
+
+			<div id="prices">
+				<p> English: &pound25 an hour </p>
+				<p> Urdu: &pound25 an hour </p> 
+				<p> Pashto: &pound25 an hour </p> 
+				<p> Punjabi: &pound25 an hour </p> 
+			</div>
+			
+			<div id="coursespic3">
+				<img src = "images/teacher.png" width= "90%" height = "100%" ></img>
+			</div>
+			
+			<div id="coursesspecialoffer">
+				<marquee>Special Offer: enroll into 2 courses get 2 hours free</marquee>
+			</div>
+			
+			<div id="coursespic2">
+				<img src="images/teaching.jpg" height="100%" width="140%">	
+			</div>
+			
+			<div id="coursespic4">
+				<img src="images/book1.jpg" height="100%" width="140%">	
+			</div>
+			
+			<div id="coursescopyright">
+			
+			<div id="_courses"></div>
+				<script>
+				var _courses = [
+				  {
+					"display": "JavaScript Tutorial",
+					"url": "https://www.w3schools.com/js/default.asp"
+				  },
+				  {
+					"display": "HTML Tutorial",
+					"url": "https://www.w3schools.com/html/default.asp"
+				  },
+				  {
+					"display": "CSS Tutorial",
+					"url": "https://www.w3schools.com/css/default.asp"
+				  }
+				];
+
+				myFunction(_courses);
+
+				function myFunction(arr) {
+				  var out = "";
+				  var i;
+				  for(i = 0; i < arr.length; i++) {
+					out += '<a href="' + arr[i].url + '">' + arr[i].display + '</a><br>';
+				  }
+				  document.getElementById("_courses").innerHTML = out;
+				}
+				</script>
+			
+			
+				<p id="JS_Font">Copyright@2019-2020 RAS Interpreting & Teaching Center</p>
+
+				<button type="button" onclick="myFont15()">Size 15 with red font</button>
+				<button type="button" onclick="myFont20()">Size 20 with Blue font</button>
+				<button type="button" onclick="myFont25()">Size 25 with Black font</button>
+				<button type="button" onclick="myFont30()">Size 30 with Green font</button>
+			
+				<marquee>RAS Interpreting & Teaching Center</marquee>
+			</div>
+		</div>
+	</body>
+</html>     
+<!-- The end of code of the index page->
