@@ -92,8 +92,8 @@ body{
 	position: absolute;
 	width: 35%;	
 	height:10%;
-	top: 140%;
-	left:38%;
+	top: 150%;
+	left:34%;
 }
 
 #aboutusintro
@@ -648,10 +648,10 @@ body{
 #legalrequirementcopyright
 {
 	position: absolute;
-	font-size:20px;
-	color:black;
-	top:86%;
-	right:12%;
+	width: 35%;	
+	height:10%;
+	top: 85%;
+	left:38%;
 }
 
 a
